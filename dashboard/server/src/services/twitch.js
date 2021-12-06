@@ -70,7 +70,7 @@ class clipsWidgets extends ServiceInterfaces.Widget {
             let response = "<div class='mt-3'>"
             for (const clip of clips.data) {
                 response += `<div class='m-6 box'>`
-                response += `<div class='mt-1'> Clip title: </div>`
+                response += `<div class='mt-1'> Clip title: caca </div>`
                 response += `<div class='mt-1'> ${clip.title} </div>`
                 response += `<div class='mt-1'> Clip views: </div>`
                 response += `<div class='mt-1'> ${clip.view_count} </div>`
